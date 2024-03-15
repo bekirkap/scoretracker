@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Tracker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="scoretracker.css">
+
+</head>
+<body>
+<div class="container-fluid"> 
+    <div class="container bg-white border my-5  w-25  ">
+        <header class="text-center mt-3 ">
+            <img src="./img/CLARUSWAY_LOGO.png"alt="">
+        </header>
+        <article class="my-5 text-center ">
+            <div class="">
+                <img src="./img/teble-tennis.gif" class="w-50 " alt="">
+            </div>
+            <div class="my-5 ">
+            <h1>Score</h1>
+            <p><span id="firstplayerscore">0</span> to <span id="seconplayerscore">0</span></p>
+            <p><span class="mx-2 ">Score to Win</span><input type="number" id="score-to-win"></p>
+            </div>
+        </article>
+
+        <footer class="container-fluid row mx-auto ">
+
+            <button class="bg-success container-fluid border col-4  " id="player1-button">
+                +1 for Player 1
+            </button>
+       
+            <button class="bg-info   container-fluid border  col-4 " id="player2-button">
+            +1 for Player 2
+        </button>
+        
+        <button class="bg-danger container-fluid border col-4 " id="reset-button">
+            Reset
+        </button>
+       
+
+        </footer>
+
+
+
+    </div>
+</div>
+
+
+    <script src="./scoretracker.js"></script>
+</body>
+</html>

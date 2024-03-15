@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    height: 50px;
+}
+.winner{
+    font-weight: bold;
+    color: green;
+}
+.loser{
+    font-weight: bold;
+    color: red;
+}
